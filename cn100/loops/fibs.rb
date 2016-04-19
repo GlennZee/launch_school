@@ -1,4 +1,5 @@
 def fibonacci(number)
+  puts "fibonnaci: #{number}"
   if number < 2
     number
   else
@@ -6,4 +7,4 @@ def fibonacci(number)
   end
 end
 
-puts fibonacci(3)
+puts fibonacci(6)
